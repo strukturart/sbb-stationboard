@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Translator</title>
+	<meta http-equiv="Content-Security-Policy" content="default-src https://en.wikipedia.org/* 'self'">
+
+
+
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+	<link rel="stylesheet" href="assets/css/main.css"/>
+	<link rel="stylesheet" href="assets/css/grid.css"/>
+
+
+
+</head>
+<body>
+
+	<div id="wrapper" class="width-100 height-100">
+
+
+
+			
+
+		<!---------------->
+		<!--menu-->
+		<!---------------->
+		<div id="page-station-list" class="flex width-100">
+			<form class="felx justify-content-spacearound">
+				<input required type="text"  placeholder="station" id="station-list">
+			</form>
+			<div id="bottom-bar">
+				<div class="text-center question">Do you want to show the departure or arrival ?</div>
+				<div class="flex justify-content-spacebetween">
+					<div class="left-button">arrival</div><div class="right-button">departure</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!------------------->
+		<!--RESULTS---------->
+		<!------------------->
+
+		<div id="page-results" class="width-100">
+			<div id="result">
+			</div>
+			<div id="article-page">
+			</div>
+
+			<div id="bottom-bar" class="flex justify-content-spacebetween">
+				<div id="button-left">&#128270;</div>
+				<div id="button-right"></div>	
+			</div>
+		</div>
+
+			
+		
+
+
+
+
+	</div>
+
+</body>
+</html>
+
+	<script defer src="assets/js/jQuery-3.1.0.js"></script>
+	<script defer src="assets/js/moments.min.js"></script>
+	<script defer src="assets/js/applait.finder.min.js"></script>
+	<script defer src="assets/js/wikipedia_languages.js"></script>
+	<script defer src="assets/js/script.js"></script>
+	<script defer src="assets/js/jquery.autocomplete.min.js"></script>
+
