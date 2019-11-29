@@ -26,6 +26,7 @@ check the arriving and departing trains in swiss public transport.
 
 - http://transport.opendata.ch/
 - https://sites.google.com/view/bananahackers/home
+- https://github.com/sofasurfer
 
 
 ## Donation
